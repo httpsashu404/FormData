@@ -1,0 +1,39 @@
+h1{
+    margin: auto;
+    width:fit-content;
+    border-bottom: 2px dashed black;
+}
+.form{
+    text-align:center;
+}
+.form form{
+    margin: auto;
+    padding: 10px 20px;
+    padding-top: 30px;
+    width: max-content;
+    border-radius: 10px;
+    border: 1px dotted black;
+    background-color:antiquewhite;
+    box-shadow: 5px 5px 15px rgba(0,0,0,.3);
+}
+.form input{
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: .5px solid silver;
+}
+.form input:hover, textarea:hover{
+    box-shadow: 2px 2px 5px rgba(0,0,0,.5);}
+.form textarea{
+    width: 100%;
+    border-radius: 10px;
+    border: .5px solid silver;
+}
+.form button{
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color:blanchedalmond;
+}
+.form button:hover{
+    box-shadow: 2px 2px 5px rgba(0,0,0,.5);}
