@@ -31,7 +31,7 @@ function Form() {
                     <input type="email" id='email' value={email} onChange={(e) => setEmail(e.target.value)} placeholder=' Enter your emailAddress' required /> <br /><br />
                 </div>
                 <div>
-                    <textarea id='msg' value={message}rows={3} onChange={(e) => setMessage(e.target.value)} placeholder=' Type your message....' required /> <br /><br />
+                    <textarea id='msg' value={message} rows={3} onChange={(e) => setMessage(e.target.value)} placeholder=' Type your message....' required /> <br /><br />
                 </div>
                 <button type="submit">Submit</button>
             </form>
