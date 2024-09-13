@@ -32,9 +32,9 @@ app.post('/api/form', async (req, res) => {
     try {
         const formData = new Form(req.body);
         await formData.save();
-        res.status(201).json({ message: 'Data saved successfully' });
-    } catch (error) {
         res.status(400).json({ message: 'Error saving data', error });
+    } catch (error) {
+        res.status(201).json({ message: 'Data saved successfully' });
     }
 });
 
